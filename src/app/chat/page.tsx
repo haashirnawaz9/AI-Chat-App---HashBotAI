@@ -80,7 +80,7 @@ function Chatbot() {
         {messages.map((msg, idx) => (
           <div key={idx} className={`flex ${msg.role === 'user' ? 'justify-end' : 'justify-start'} mb-3`}>
             <div className={`
-              max-w-[75%] px-4 py-3 rounded-2xl text-sm whitespace-pre-line shadow
+              max-w-[110%] px-4 py-3 rounded-2xl text-sm whitespace-pre-line shadow
               ${msg.role === 'user'
                 ? 'bg-blue-500 text-white'
                 : 'bg-gray-200 text-gray-900 dark:bg-gray-700 dark:text-gray-100'}
